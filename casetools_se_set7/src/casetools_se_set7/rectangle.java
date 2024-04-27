@@ -23,10 +23,17 @@ public class rectangle {
 	public static void main(String[]args) {
 		//TODO Auto-generated method stub
 	}
-
-
-
+	public double getArea() {
+		return width*height;
+	}
+	public double getperimeter() {
+		return 2* (width+height);
+	}
 }
+
+
+
+
 
 
 
